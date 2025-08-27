@@ -2882,4 +2882,34 @@ footer {
 /*----- End of style.css -----*/
 
 
+.service-card .category-tag{
+  display:inline-block;
+  font-size:.75rem;              /* small like the screenshot */
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  color:#15b46a;                 /* green text */
+  background:rgba(21,180,106,.08); /* faint green background (optional) */
+  padding:.25rem .5rem;
+  border-radius:.5rem;           /* subtle rounded pill */
+}
+
+.service-img{
+  height: 230px;                 /* keep cards aligned */
+  object-fit: cover;
+  border-top-left-radius:.5rem;
+  border-top-right-radius:.5rem;
+}
+
+/* optional: nicer card hover like the screenshot */
+.service-card{
+  border-radius:.5rem;
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.service-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 24px rgba(0,0,0,.08);
+}
+
+
 
